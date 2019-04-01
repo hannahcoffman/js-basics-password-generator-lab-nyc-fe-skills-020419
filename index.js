@@ -10,7 +10,7 @@ window.addEventListener("load", () => {
     // we want to loop and make a random letter every time 
     // like saying start from 0, finish at 9 
     for (let i = 0; i <howManyCharacters; i++) {
-      
+      console.log(Math.floor(Math.random() * 26))
     }
   }
 
