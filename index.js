@@ -9,9 +9,11 @@ window.addEventListener("load", () => {
     const howManyCharacters = input.value
     // we want to loop and make a random letter every time 
     // like saying start from 0, finish at 9 
+    let startingString = ''
     for (let i = 0; i <howManyCharacters; i++) {
     const randomIndex = Math.floor(Math.random() * 26)
-    console.log(lowerCaseLetters[randomIndex])
+    startingString += lowerCaseLetters[randomIndex]
+    
     }
   }
 
