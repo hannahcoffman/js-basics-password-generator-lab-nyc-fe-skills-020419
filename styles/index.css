@@ -57,3 +57,11 @@ output {
 a:link {
     text-decoration: none;
 }
+
+input {
+  width:300px;
+}
+
+submit {
+  width:100px;
+}
