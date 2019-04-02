@@ -9,7 +9,10 @@ window.addEventListener("load", () => {
   function onSubmit(event){
     event.preventDefault()
     const input =document.getElementById('password-length')
-    const howManyCharacters = input.value
+    let howManyCharacters = input.value
+    if (input.value <4) {
+      howManyCharacters = 4
+    }
     // we want to loop and make a random letter every time 
     // like saying start from 0, finish at 9 
     let startingString = ''
